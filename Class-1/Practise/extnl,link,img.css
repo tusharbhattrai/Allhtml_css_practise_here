@@ -1,0 +1,59 @@
+.body
+{
+    font-family: poppins;
+}
+
+.nameh
+{
+    font-size: 60px;
+    color: deeppink;
+}
+
+
+.tittle 
+{
+font-size: 30px;
+color: darkmagenta;
+}
+
+
+.description
+{
+    font-style: italic;
+}
+ .Journey
+{
+ font-size: 18px;
+ color: darkblue;
+}
+
+.Schooling 
+{
+font-size: 22px;
+color: darkgreen;
+}
+
+.Bio
+{
+    font-size: 14px;
+    color: darkslategray;
+}
+
+.img
+{
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue; ;
+}
+
+.button
+{
+    padding: 10px 60px;
+    background-color: blue;
+    text-emphasis-color: white;
+}
+
+.btntext
+{
+    color: white;
+}

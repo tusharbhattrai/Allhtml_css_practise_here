@@ -1,0 +1,32 @@
+.body
+{
+    font-family: poppins;
+}
+
+.tittle 
+{
+font-size: 36px;
+color: darkmagenta;
+}
+
+.description
+{
+    font-style: italic;
+}
+ .Journey
+{
+ font-size: 18px;
+ color: darkblue;
+}
+
+.Schooling 
+{
+font-size: 22px;
+color: darkgreen;
+}
+
+.Bio
+{
+    font-size: 14px;
+    color: darkslategray;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-layout</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 1px solid red;
+            display: grid;
+            grid-template-columns: 260px 260px 260px;
+            grid-template-rows: 200px 200px 200px;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        .box1 {
+            border: 1px solid rgb(191, 255, 0);
+            /* width: 1200px; */
+            /* overflow: scroll; */
+            padding: 10px;
+            width: fit-content;
+        }
+
+        img {
+            width: 250px;
+            height: 180px;
+        }
+
+        .box2 {
+            border: 1px solid rgb(0, 255, 153);
+            padding: 10px;
+            width: fit-content;
+        }
+
+        .box3 {
+            border: 1px solid rgb(123, 0, 255);
+            padding: 10px;
+            width: fit-content;
+        }
+
+        .box4 {
+            border: 1px solid rgb(0, 221, 255);
+            padding: 10px;
+            width: fit-content;
+        }
+
+        .box5 {
+            border: 1px solid rgb(255, 0, 255);
+            padding: 10px;
+            width: fit-content;
+        }
+
+        .box6 {
+            border: 1px solid rgb(255, 149, 0);
+            padding: 10px;
+            width: fit-content;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1"><img src="image_2.jpg" alt=""></div>
+        <div class="box2"><img src="image_2.jpg" alt=""></div>
+        <div class="box3"><img src="image_2.jpg" alt=""></div>
+        <div class="box4"><img src="image_2.jpg" alt=""></div>
+        <div class="box5"><img src="image_2.jpg" alt=""></div>
+        <div class="box6"><img src="image_2.jpg" alt=""></div>
+        <div class="box7"><img src="image_2.jpg" alt=""></div>
+        <div class="box8"><img src="image_2.jpg" alt=""></div>
+        <div class="box9"><img src="image_2.jpg" alt=""></div>
+        <div class="box10"><img src="image_2.jpg" alt=""></div>
+        <div class="box11"><img src="image_2.jpg" alt=""></div>
+        <div class="box12"><img src="image_2.jpg" alt=""></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test-1_practise</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .header {
+            /* border: 1px solid black; */
+            height: 60px;
+            width: 100%;
+            /* background-color: beige; */
+            box-shadow: 0px 0px 4px 4px rgb(236, 236, 236);
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .logo {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 22px;
+            font-weight: 600;
+            flex: 2;
+            margin-left: 20px;
+        }
+
+        .navbar {
+            flex: 2;
+
+        }
+
+        .nav-items {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            list-style: none;
+            /* justify-content: space-around; */
+            justify-content: right;
+            margin-right: 20px;
+            align-items: center;
+
+        }
+
+        .nav-item {
+            margin-left: 20px;
+        }
+
+        .login {
+
+            background-color: black;
+            color: white;
+            width: 80px;
+            height: 40px;
+            border: none;
+            border-radius: 6px;
+        }
+
+        .first_fold {
+
+            width: 100%;
+            text-align: center;
+            margin-top: 5%;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+
+        .learn_more {
+            background-color: black;
+            color: white;
+            width: 80px;
+            height: 40px;
+            border: none;
+            border-radius: 6px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            margin-left: 80px;
+            margin-right: 80px;
+            gap: 60px;
+        }
+
+        #img_right {
+            display: flex;
+            flex-direction: row;
+            gap: 140px;
+
+        }
+
+        #img_left {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 140px;
+
+        }
+
+        .img_1 {
+            /* float: right; */
+            width: 100%;
+            height: 100%;
+            border-radius: 6px;
+
+        }
+
+
+        .des_1 {
+            margin-top: 50px;
+        }
+
+        .para1 {
+            background-color: black;
+            color: white;
+            width: 100px;
+            height: 40px;
+            border: none;
+            border-radius: 6px;
+            padding: 10px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 50%;
+        }
+
+        .img_container {
+            height: 30%;
+            width: 30%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <Header class="header">
+        <div class="logo">Tushar</div>
+        <nav class="navbar">
+            <ul class="nav-items">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">About</li>
+                <li class="nav-item">Pricing</li>
+                <li class="nav-item">Contact</li>
+                <li class="nav-item">
+                    <button class="login">Login</button>
+                </li>
+
+            </ul>
+        </nav>
+    </Header>
+    <div class="first_fold">
+        <H1 class="Heading_1">Landing page title</H1>
+        <p>I'll write landing page tille leter</p>
+        <Button class="learn_more">Learn more</Button>
+    </div>
+    <div class="container">
+        <div class="horizontal_card" id="img_right">
+            <div class="img_container"><img class="img_1" src="image_1.jpg" alt=""></div>
+            <div class="content">
+                <p class="des_1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repellendus quam
+                    debitis ipsa veritatis consectetur a necessitatibus tempora odio, cupiditate, possimus
+                    pariatur inventore itaque at?
+                </p>
+                <button class="para1">
+                    Learn more
+                </button>
+            </div>
+        </div>
+        <div class="horizontal_card" id="img_left">
+            <div class="img_container"><img class="img_1" src="image_2.jpg" alt=""></div>
+            <div class="content">
+                <p class="des_1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repellendus quam
+                    debitis ipsa veritatis consectetur a necessitatibus tempora odio, cupiditate, possimus
+                    pariatur inventore itaque at?
+                </p>
+                <button class="para1">
+                    Learn more
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
